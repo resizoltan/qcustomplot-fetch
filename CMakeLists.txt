@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.11)
 option(QCUSTOMPLOT_DEMO "qcustomplot build demo" OFF)
 set(QCUSTOMPLOT_VERSION 2.1.1 CACHE STRING "")
 set(QCUSTOMPLOT_URL "https://www.qcustomplot.com/release/${QCUSTOMPLOT_VERSION}/QCustomPlot-source.tar.gz" CACHE STRING "")
-set(QT_VERSION 6 CACHE STRING "")
+set(QT_VERSION 6)
 set(CMAKE_BUILD_TYPE "Release" CACHE STRING "")
 
 
